@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="menu" style="background-color: #409EFF">
+    <div class="menu" style="background-color: #1976d2">
       <img src="../../assets/logo.png" style="width: 58px; height: 58px;float: left" class="vertical-center"/>
       <div class="vertical-center" style="margin-left: 20px;font-size: 30px;color: white;float: left">教务辅助系统</div>
       <div class="user-box vertical-center">
@@ -13,9 +13,10 @@
         :default-active="this.$route.path"
         class="menu"
         mode="horizontal"
-        background-color="#545c64"
+        background-color="#2196f3"
         text-color="#fff"
-        active-text-color="#ffd04b"
+        active-text-color="#bdbdbd"
+        style="border-radius:0 0 10px 10px;"
         router>
       <el-menu-item index="/" class="menu-item" route="/">首 页</el-menu-item>
       <template v-if="this.$store.state.user.username" class="menu-item">
@@ -49,11 +50,11 @@ export default {
 .menu-item {
   font-size: 18px;
   text-align: center;
-  width: 20%;
+  width: 18%;
 }
 
 .menu {
-  width: 95%;
+  width: 90%;
   height: 60px;
   margin-right: auto;
   margin-left: auto;

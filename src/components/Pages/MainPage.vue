@@ -103,7 +103,6 @@
           </div>
         </el-aside>
         <el-main>
-          <p style="font-size: 20px;margin-bottom: 12px;margin-top: 0">注: 课表出现问题请刷新页面，使用中出现任何问题请反馈。QQ:1026751519</p>
           <el-card v-loading="tableLoading" element-loading-text="拼命加载中">
             <el-table border
                       :key="tableKey"

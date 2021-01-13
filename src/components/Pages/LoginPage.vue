@@ -1,7 +1,6 @@
 <template>
   <el-card style="width: 500px;margin: 150px auto;">
-    <el-image src="logo.png" class="horizontal-center">
-    </el-image>
+    <el-image src="logo.png" class="horizontal-center"/>
     <h1 align="center">用 户 登 录</h1>
     <el-divider><i class="el-icon-postcard"></i></el-divider>
     <el-form>
